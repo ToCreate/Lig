@@ -13,7 +13,7 @@ import junit.framework.Assert;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:spring.xml")
+@ContextConfiguration(locations = "classpath:conf/spring-core.xml")
 public class HelloServiceTest {
 
     @Autowired
